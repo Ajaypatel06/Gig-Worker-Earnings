@@ -1,0 +1,301 @@
+worker_id,worker_name,gender,age,city,zone,platform,vehicle_type,vehicle_cc_or_watt,years_on_platform,joined_year,phone_model,engine_type,engine_value
+GW0001,Rahul Mishra,Male,28,Delhi,Lajpat Nagar,Zomato,Bicycle,110,3.2,2019,Redmi 9,ICE,110
+GW0002,Manoj Tiwari,Male,37,Bangalore,Electronic City,Swiggy,Petrol Bike,500W,1.5,2023,realme C35,Electric,500
+GW0003,Deepak Nair,Male,31,Mumbai,Dadar,Zomato,Petrol Bike,250W,1.0,2022,Redmi 9,Electric,250
+GW0004,Anita Shah,Female,29,Delhi,Noida Ext.,Swiggy,Electric Bike,110,4.9,2022,Redmi 9,ICE,110
+GW0005,Divya Chauhan,Female,39,Bangalore,Whitefield,Swiggy,Bicycle,125,4.0,2019,Samsung M14,ICE,125
+GW0006,Vikram Mishra,Male,35,Mumbai,Powai,Blinkit,Petrol Bike,250W,2.1,2021,Redmi 9,Electric,250
+GW0007,Naveen Tiwari,Male,26,Delhi,Rohini,Zepto,CNG Bike,125,3.6,2019,Samsung M14,ICE,125
+GW0008,Praveen Rajput,Male,29,Bangalore,Koramangala,Zomato,CNG Bike,125,3.4,2022,POCO M4,ICE,125
+GW0009,Sanjay Gupta,Male,28,Mumbai,Powai,Dunzo,CNG Bike,500W,4.5,2022,realme C35,Electric,500
+GW0010,Arun Rao,Male,36,Delhi,Connaught Place,Swiggy,Bicycle,125,3.3,2022,Redmi Note 12,ICE,125
+GW0011,Vikram Rajput,Male,40,Bangalore,Indiranagar,Dunzo,CNG Bike,100,3.6,2019,Redmi Note 12,ICE,100
+GW0012,Anita Singh,Female,30,Mumbai,Thane,Zomato,Electric Bike,100,4.8,2021,Redmi Note 12,ICE,100
+GW0013,Kishore Singh,Male,41,Delhi,Dwarka,Dunzo,Petrol Bike,125,2.2,2020,Redmi Note 12,ICE,125
+GW0014,Nitin Jha,Male,36,Bangalore,Koramangala,Swiggy,CNG Bike,150,1.6,2020,Redmi Note 12,ICE,150
+GW0015,Ramesh Reddy,Male,23,Mumbai,Worli,Dunzo,Petrol Bike,125,3.5,2023,Samsung M14,ICE,125
+GW0016,Pooja Shah,Female,34,Delhi,Lajpat Nagar,Dunzo,Petrol Bike,150,2.3,2021,POCO M4,ICE,150
+GW0017,Sunita Tiwari,Female,28,Bangalore,Koramangala,Blinkit,Bicycle,125,3.1,2019,Redmi 9,ICE,125
+GW0018,Ravi Kumar,Male,22,Mumbai,Worli,Blinkit,Bicycle,125,1.8,2022,Samsung M14,ICE,125
+GW0019,Pankaj Mehta,Male,36,Delhi,Lajpat Nagar,Zepto,Electric Bike,125,0.9,2022,realme C35,ICE,125
+GW0020,Geeta Pillai,Female,22,Bangalore,Marathahalli,Swiggy,Bicycle,500W,3.8,2019,Samsung M14,Electric,500
+GW0021,Manoj Iyer,Male,35,Mumbai,Bandra,Zepto,Petrol Bike,150,2.6,2019,POCO M4,ICE,150
+GW0022,Suresh Iyer,Male,21,Delhi,Connaught Place,Zomato,Petrol Bike,500W,2.7,2020,POCO M4,Electric,500
+GW0023,Deepak Rajput,Male,21,Bangalore,Indiranagar,Blinkit,Electric Bike,150,2.4,2023,POCO M4,ICE,150
+GW0024,Manoj Pandey,Male,27,Mumbai,Andheri,Dunzo,Bicycle,250W,0.8,2023,POCO M4,Electric,250
+GW0025,Suresh Rao,Male,23,Delhi,Noida Ext.,Zomato,Bicycle,110,3.5,2020,POCO M4,ICE,110
+GW0026,Pankaj Tiwari,Male,39,Bangalore,Electronic City,Swiggy,Bicycle,500W,3.5,2023,Redmi Note 12,Electric,500
+GW0027,Rekha Verma,Female,42,Mumbai,Powai,Blinkit,Petrol Bike,150,2.3,2021,POCO M4,ICE,150
+GW0028,Sunita Sharma,Female,35,Delhi,Saket,Dunzo,Bicycle,110,2.9,2023,realme C35,ICE,110
+GW0029,Dinesh Kumar,Male,28,Bangalore,HSR Layout,Blinkit,Petrol Bike,800W,4.3,2021,Redmi Note 12,Electric,800
+GW0030,Naveen Pandey,Male,42,Mumbai,Andheri,Zomato,CNG Bike,110,4.5,2023,Samsung M14,ICE,110
+GW0031,Rekha Shah,Female,27,Delhi,Karol Bagh,Blinkit,Petrol Bike,150,2.8,2021,Redmi 9,ICE,150
+GW0032,Rohit Mishra,Male,22,Bangalore,Koramangala,Blinkit,Petrol Bike,150,1.2,2022,Redmi Note 12,ICE,150
+GW0033,Pooja Sharma,Female,24,Mumbai,Andheri,Zomato,Bicycle,250W,3.1,2020,POCO M4,Electric,250
+GW0034,Suresh Pandey,Male,32,Delhi,Noida Ext.,Swiggy,CNG Bike,125,3.6,2019,realme C35,ICE,125
+GW0035,Divya Gupta,Female,28,Bangalore,BTM Layout,Zomato,Petrol Bike,500W,0.6,2021,POCO M4,Electric,500
+GW0036,Sanjay Patel,Male,24,Mumbai,Thane,Swiggy,Electric Bike,125,1.4,2022,realme C35,ICE,125
+GW0037,Meena Tiwari,Female,21,Delhi,Karol Bagh,Zomato,Electric Bike,250W,1.8,2019,realme C35,Electric,250
+GW0038,Pooja Rajput,Female,42,Bangalore,BTM Layout,Dunzo,CNG Bike,100,1.0,2021,Samsung M14,ICE,100
+GW0039,Priya Singh,Female,40,Mumbai,Thane,Blinkit,CNG Bike,500W,3.2,2023,Redmi 9,Electric,500
+GW0040,Divya Verma,Female,29,Delhi,Connaught Place,Zepto,Bicycle,125,2.1,2019,realme C35,ICE,125
+GW0041,Sunita Pandey,Female,37,Bangalore,HSR Layout,Zepto,CNG Bike,500W,3.6,2023,Samsung M14,Electric,500
+GW0042,Rohit Rajput,Male,42,Mumbai,Powai,Zomato,CNG Bike,500W,3.0,2019,realme C35,Electric,500
+GW0043,Meena Nair,Female,39,Delhi,Saket,Blinkit,Electric Bike,800W,2.5,2020,Redmi Note 12,Electric,800
+GW0044,Kavita Kumar,Female,30,Bangalore,Electronic City,Dunzo,CNG Bike,110,4.2,2020,realme C35,ICE,110
+GW0045,Manoj Gupta,Male,21,Mumbai,Andheri,Zomato,Electric Bike,110,2.5,2023,Samsung M14,ICE,110
+GW0046,Shanti Rajput,Female,28,Delhi,Lajpat Nagar,Swiggy,Bicycle,500W,1.5,2023,POCO M4,Electric,500
+GW0047,Naveen Tiwari,Male,24,Bangalore,Indiranagar,Zomato,Electric Bike,250W,4.8,2022,Redmi Note 12,Electric,250
+GW0048,Pooja Pillai,Female,26,Mumbai,Powai,Zepto,Electric Bike,150,3.9,2021,Redmi Note 12,ICE,150
+GW0049,Meena Mishra,Female,35,Delhi,Connaught Place,Blinkit,Petrol Bike,150,2.0,2023,Redmi 9,ICE,150
+GW0050,Arun Tiwari,Male,33,Bangalore,Marathahalli,Zomato,Petrol Bike,110,2.4,2021,Redmi Note 12,ICE,110
+GW0051,Geeta Yadav,Female,27,Mumbai,Worli,Zepto,Electric Bike,100,4.4,2023,POCO M4,ICE,100
+GW0052,Priya Chauhan,Female,30,Delhi,Noida Ext.,Zepto,Electric Bike,125,2.7,2021,POCO M4,ICE,125
+GW0053,Priya Rajput,Female,31,Bangalore,Marathahalli,Zepto,Petrol Bike,800W,4.6,2023,Redmi Note 12,Electric,800
+GW0054,Vikram Mehta,Male,39,Mumbai,Powai,Swiggy,Bicycle,500W,1.1,2022,Samsung M14,Electric,500
+GW0055,Sanjay Rajput,Male,31,Delhi,Lajpat Nagar,Zepto,CNG Bike,250W,3.9,2022,realme C35,Electric,250
+GW0056,Rekha Kumar,Female,36,Bangalore,Koramangala,Dunzo,Bicycle,250W,1.5,2019,Redmi 9,Electric,250
+GW0057,Ravi Verma,Male,21,Mumbai,Borivali,Zomato,Petrol Bike,125,2.6,2019,Redmi Note 12,ICE,125
+GW0058,Arjun Mishra,Male,32,Delhi,Lajpat Nagar,Dunzo,Bicycle,125,4.8,2019,Redmi Note 12,ICE,125
+GW0059,Amit Mehta,Male,42,Bangalore,Indiranagar,Zepto,Petrol Bike,110,3.2,2020,Redmi 9,ICE,110
+GW0060,Divya Singh,Female,39,Mumbai,Worli,Swiggy,CNG Bike,500W,3.5,2019,Redmi Note 12,Electric,500
+GW0061,Priya Nair,Female,36,Delhi,Connaught Place,Zepto,CNG Bike,800W,3.7,2022,Samsung M14,Electric,800
+GW0062,Divya Iyer,Female,36,Bangalore,Indiranagar,Zepto,CNG Bike,250W,4.3,2019,realme C35,Electric,250
+GW0063,Meena Pillai,Female,39,Mumbai,Borivali,Zepto,CNG Bike,100,2.7,2021,Samsung M14,ICE,100
+GW0064,Meena Chauhan,Female,29,Delhi,Dwarka,Blinkit,CNG Bike,100,2.8,2020,Redmi 9,ICE,100
+GW0065,Rohit Reddy,Male,38,Bangalore,BTM Layout,Zomato,Electric Bike,800W,2.5,2019,Redmi 9,Electric,800
+GW0066,Meena Rajput,Female,28,Mumbai,Dadar,Dunzo,CNG Bike,800W,3.0,2021,POCO M4,Electric,800
+GW0067,Anita Pillai,Female,29,Delhi,Dwarka,Blinkit,Petrol Bike,110,3.7,2021,Redmi 9,ICE,110
+GW0068,Manoj Verma,Male,36,Bangalore,HSR Layout,Dunzo,CNG Bike,110,4.2,2021,Samsung M14,ICE,110
+GW0069,Kavita Pandey,Female,21,Mumbai,Powai,Dunzo,Petrol Bike,150,0.7,2019,Redmi Note 12,ICE,150
+GW0070,Kavita Reddy,Female,24,Delhi,Noida Ext.,Swiggy,CNG Bike,800W,2.7,2021,Samsung M14,Electric,800
+GW0071,Sanjay Reddy,Male,24,Bangalore,BTM Layout,Swiggy,Electric Bike,800W,0.8,2019,Samsung M14,Electric,800
+GW0072,Pankaj Pandey,Male,23,Mumbai,Bandra,Swiggy,Electric Bike,125,4.0,2022,POCO M4,ICE,125
+GW0073,Rekha Mehta,Female,34,Delhi,Dwarka,Dunzo,Bicycle,110,4.8,2020,Samsung M14,ICE,110
+GW0074,Sunita Patel,Female,28,Bangalore,Whitefield,Dunzo,Bicycle,125,0.5,2022,Redmi Note 12,ICE,125
+GW0075,Rekha Yadav,Female,28,Mumbai,Dadar,Blinkit,Electric Bike,110,3.6,2021,Redmi Note 12,ICE,110
+GW0076,Rohit Singh,Male,38,Delhi,Lajpat Nagar,Zomato,CNG Bike,125,0.8,2020,realme C35,ICE,125
+GW0077,Shanti Singh,Female,35,Bangalore,Marathahalli,Blinkit,Electric Bike,150,2.8,2022,POCO M4,ICE,150
+GW0078,Nitin Yadav,Male,34,Mumbai,Powai,Blinkit,CNG Bike,100,0.9,2023,Redmi Note 12,ICE,100
+GW0079,Sanjay Mehta,Male,22,Delhi,Noida Ext.,Zomato,Electric Bike,800W,4.6,2020,Redmi Note 12,Electric,800
+GW0080,Shanti Kumar,Female,36,Bangalore,HSR Layout,Zepto,CNG Bike,250W,3.5,2020,realme C35,Electric,250
+GW0081,Shanti Pandey,Female,42,Mumbai,Thane,Dunzo,Bicycle,800W,0.9,2021,realme C35,Electric,800
+GW0082,Vikram Rao,Male,21,Delhi,Karol Bagh,Dunzo,Electric Bike,500W,0.7,2023,realme C35,Electric,500
+GW0083,Shanti Yadav,Female,27,Bangalore,HSR Layout,Dunzo,Petrol Bike,150,2.5,2022,Redmi 9,ICE,150
+GW0084,Nitin Tiwari,Male,26,Mumbai,Dadar,Dunzo,Bicycle,500W,0.9,2019,POCO M4,Electric,500
+GW0085,Arun Reddy,Male,30,Delhi,Saket,Blinkit,Electric Bike,800W,4.9,2020,POCO M4,Electric,800
+GW0086,Vikram Verma,Male,40,Bangalore,Electronic City,Zomato,Bicycle,150,4.0,2022,realme C35,ICE,150
+GW0087,Priya Pandey,Female,30,Mumbai,Worli,Dunzo,Electric Bike,125,2.5,2022,realme C35,ICE,125
+GW0088,Pooja Iyer,Female,33,Delhi,Rohini,Blinkit,Petrol Bike,125,3.1,2020,POCO M4,ICE,125
+GW0089,Praveen Reddy,Male,33,Bangalore,Indiranagar,Zomato,Electric Bike,100,1.1,2023,realme C35,ICE,100
+GW0090,Arjun Singh,Male,37,Mumbai,Thane,Swiggy,Petrol Bike,500W,4.4,2020,Redmi 9,Electric,500
+GW0091,Rekha Jha,Female,40,Delhi,Karol Bagh,Zepto,Bicycle,250W,4.3,2023,POCO M4,Electric,250
+GW0092,Shanti Iyer,Female,22,Bangalore,Electronic City,Swiggy,Petrol Bike,150,5.0,2019,POCO M4,ICE,150
+GW0093,Vikas Pillai,Male,26,Mumbai,Powai,Blinkit,Bicycle,100,2.0,2019,realme C35,ICE,100
+GW0094,Anita Nair,Female,25,Delhi,Lajpat Nagar,Dunzo,Electric Bike,125,1.3,2019,Redmi Note 12,ICE,125
+GW0095,Divya Tiwari,Female,36,Bangalore,Electronic City,Zomato,Petrol Bike,800W,3.4,2022,realme C35,Electric,800
+GW0096,Arjun Pandey,Male,42,Mumbai,Borivali,Zomato,Bicycle,800W,4.8,2023,realme C35,Electric,800
+GW0097,Rekha Pillai,Female,30,Delhi,Lajpat Nagar,Zepto,Electric Bike,110,1.6,2023,realme C35,ICE,110
+GW0098,Rekha Sharma,Female,42,Bangalore,Indiranagar,Blinkit,Bicycle,100,4.6,2022,realme C35,ICE,100
+GW0099,Nitin Chauhan,Male,28,Mumbai,Powai,Zomato,CNG Bike,125,3.3,2019,realme C35,ICE,125
+GW0100,Priya Mehta,Female,32,Delhi,Karol Bagh,Zomato,Bicycle,150,2.0,2022,Samsung M14,ICE,150
+GW0101,Arun Iyer,Male,32,Bangalore,Electronic City,Dunzo,CNG Bike,125,1.7,2022,realme C35,ICE,125
+GW0102,Sunita Pillai,Female,23,Mumbai,Bandra,Zomato,Electric Bike,250W,0.9,2022,Redmi 9,Electric,250
+GW0103,Pooja Singh,Female,35,Delhi,Dwarka,Blinkit,Electric Bike,250W,1.0,2020,POCO M4,Electric,250
+GW0104,Nitin Iyer,Male,31,Bangalore,Electronic City,Zomato,Bicycle,800W,4.6,2021,POCO M4,Electric,800
+GW0105,Arun Yadav,Male,22,Mumbai,Dadar,Zepto,Bicycle,110,1.6,2023,Samsung M14,ICE,110
+GW0106,Shanti Chauhan,Female,42,Delhi,Karol Bagh,Dunzo,Electric Bike,125,4.5,2019,POCO M4,ICE,125
+GW0107,Rekha Yadav,Female,32,Bangalore,Whitefield,Zepto,Electric Bike,125,4.3,2019,realme C35,ICE,125
+GW0108,Priya Rajput,Female,29,Mumbai,Bandra,Swiggy,Electric Bike,110,3.5,2023,Redmi 9,ICE,110
+GW0109,Praveen Tiwari,Male,25,Delhi,Noida Ext.,Dunzo,Petrol Bike,110,4.2,2023,Samsung M14,ICE,110
+GW0110,Ravi Jha,Male,25,Bangalore,BTM Layout,Dunzo,Bicycle,150,4.4,2020,Samsung M14,ICE,150
+GW0111,Kavita Singh,Female,42,Mumbai,Worli,Swiggy,Petrol Bike,100,2.1,2020,Redmi Note 12,ICE,100
+GW0112,Priya Patel,Female,29,Delhi,Connaught Place,Zomato,Electric Bike,110,3.9,2022,POCO M4,ICE,110
+GW0113,Pooja Mehta,Female,24,Bangalore,Indiranagar,Dunzo,Petrol Bike,100,3.8,2023,realme C35,ICE,100
+GW0114,Priya Yadav,Female,36,Mumbai,Worli,Zepto,Electric Bike,110,2.7,2022,Redmi 9,ICE,110
+GW0115,Praveen Shah,Male,25,Delhi,Connaught Place,Zomato,CNG Bike,250W,2.2,2023,Redmi Note 12,Electric,250
+GW0116,Shanti Rao,Female,40,Bangalore,Indiranagar,Swiggy,Bicycle,125,2.4,2020,POCO M4,ICE,125
+GW0117,Shanti Rajput,Female,34,Mumbai,Powai,Swiggy,CNG Bike,500W,1.9,2021,realme C35,Electric,500
+GW0118,Ganesh Kumar,Male,23,Delhi,Noida Ext.,Swiggy,Bicycle,500W,0.9,2021,Samsung M14,Electric,500
+GW0119,Pankaj Iyer,Male,38,Bangalore,HSR Layout,Swiggy,Electric Bike,250W,4.4,2022,Redmi 9,Electric,250
+GW0120,Divya Pandey,Female,32,Mumbai,Andheri,Dunzo,Petrol Bike,125,3.5,2020,Redmi 9,ICE,125
+GW0121,Pooja Chauhan,Female,24,Delhi,Noida Ext.,Blinkit,Petrol Bike,500W,4.3,2023,Redmi Note 12,Electric,500
+GW0122,Nitin Mishra,Male,21,Bangalore,Whitefield,Blinkit,CNG Bike,250W,2.1,2020,Samsung M14,Electric,250
+GW0123,Sunita Gupta,Female,41,Mumbai,Andheri,Swiggy,Petrol Bike,500W,2.4,2021,Samsung M14,Electric,500
+GW0124,Rekha Jha,Female,39,Delhi,Saket,Swiggy,Bicycle,125,1.2,2023,Redmi 9,ICE,125
+GW0125,Sanjay Pillai,Male,42,Bangalore,Indiranagar,Zepto,Electric Bike,500W,1.7,2023,Redmi 9,Electric,500
+GW0126,Geeta Singh,Female,30,Mumbai,Powai,Dunzo,Electric Bike,150,0.7,2022,Redmi Note 12,ICE,150
+GW0127,Rahul Verma,Male,30,Delhi,Lajpat Nagar,Zomato,CNG Bike,150,2.0,2019,POCO M4,ICE,150
+GW0128,Kavita Gupta,Female,33,Bangalore,Electronic City,Zomato,CNG Bike,110,2.3,2019,POCO M4,ICE,110
+GW0129,Arjun Kumar,Male,31,Mumbai,Borivali,Zepto,Electric Bike,500W,1.8,2022,Redmi 9,Electric,500
+GW0130,Kavita Shah,Female,35,Delhi,Noida Ext.,Blinkit,Bicycle,500W,4.3,2020,POCO M4,Electric,500
+GW0131,Pooja Kumar,Female,33,Bangalore,BTM Layout,Blinkit,CNG Bike,125,2.0,2020,Redmi 9,ICE,125
+GW0132,Kishore Rao,Male,27,Mumbai,Worli,Blinkit,CNG Bike,125,1.6,2020,realme C35,ICE,125
+GW0133,Deepak Shah,Male,25,Delhi,Noida Ext.,Swiggy,Petrol Bike,800W,2.6,2023,Redmi Note 12,Electric,800
+GW0134,Divya Shah,Female,31,Bangalore,BTM Layout,Blinkit,Petrol Bike,800W,0.8,2022,realme C35,Electric,800
+GW0135,Divya Yadav,Female,32,Mumbai,Borivali,Swiggy,CNG Bike,800W,2.5,2019,realme C35,Electric,800
+GW0136,Sunita Kumar,Female,40,Delhi,Saket,Dunzo,Electric Bike,800W,3.1,2019,POCO M4,Electric,800
+GW0137,Praveen Shah,Male,36,Bangalore,Electronic City,Zomato,Bicycle,800W,1.0,2021,Redmi 9,Electric,800
+GW0138,Suresh Tiwari,Male,35,Mumbai,Thane,Dunzo,Petrol Bike,250W,2.2,2021,POCO M4,Electric,250
+GW0139,Anita Shah,Female,22,Delhi,Noida Ext.,Blinkit,Bicycle,250W,0.9,2022,realme C35,Electric,250
+GW0140,Divya Gupta,Female,31,Bangalore,Koramangala,Dunzo,Petrol Bike,250W,1.9,2022,Samsung M14,Electric,250
+GW0141,Amit Iyer,Male,33,Mumbai,Powai,Blinkit,Petrol Bike,110,3.4,2022,Redmi Note 12,ICE,110
+GW0142,Priya Chauhan,Female,30,Delhi,Lajpat Nagar,Zomato,CNG Bike,800W,1.4,2020,Samsung M14,Electric,800
+GW0143,Amit Singh,Male,37,Bangalore,BTM Layout,Dunzo,Bicycle,250W,4.4,2023,Samsung M14,Electric,250
+GW0144,Kavita Patel,Female,26,Mumbai,Worli,Dunzo,Petrol Bike,800W,0.7,2021,Samsung M14,Electric,800
+GW0145,Divya Pandey,Female,35,Delhi,Lajpat Nagar,Dunzo,Petrol Bike,150,4.8,2022,Samsung M14,ICE,150
+GW0146,Divya Pillai,Female,35,Bangalore,BTM Layout,Blinkit,Electric Bike,500W,4.8,2020,Redmi Note 12,Electric,500
+GW0147,Sanjay Yadav,Male,41,Mumbai,Thane,Blinkit,Bicycle,110,1.8,2020,realme C35,ICE,110
+GW0148,Pooja Gupta,Female,34,Delhi,Connaught Place,Zomato,Electric Bike,250W,4.7,2022,Redmi 9,Electric,250
+GW0149,Pooja Chauhan,Female,28,Bangalore,Indiranagar,Swiggy,CNG Bike,125,0.6,2019,realme C35,ICE,125
+GW0150,Arun Yadav,Male,30,Mumbai,Worli,Zepto,Petrol Bike,800W,2.5,2019,Redmi 9,Electric,800
+GW0151,Sanjay Verma,Male,25,Delhi,Saket,Dunzo,Electric Bike,110,4.0,2020,realme C35,ICE,110
+GW0152,Suresh Tiwari,Male,34,Bangalore,Marathahalli,Dunzo,Electric Bike,110,1.0,2022,Redmi Note 12,ICE,110
+GW0153,Kishore Mehta,Male,28,Mumbai,Powai,Zomato,CNG Bike,500W,0.5,2021,Samsung M14,Electric,500
+GW0154,Kavita Kumar,Female,37,Delhi,Dwarka,Swiggy,Bicycle,500W,4.4,2019,POCO M4,Electric,500
+GW0155,Rekha Sharma,Female,32,Bangalore,BTM Layout,Swiggy,CNG Bike,125,3.8,2019,Redmi Note 12,ICE,125
+GW0156,Kavita Yadav,Female,32,Mumbai,Borivali,Blinkit,Petrol Bike,800W,4.9,2022,Samsung M14,Electric,800
+GW0157,Ramesh Pillai,Male,22,Delhi,Dwarka,Zomato,Bicycle,125,4.5,2021,realme C35,ICE,125
+GW0158,Pooja Reddy,Female,29,Bangalore,Koramangala,Zomato,CNG Bike,250W,4.4,2019,realme C35,Electric,250
+GW0159,Sunita Chauhan,Female,34,Mumbai,Thane,Zepto,Electric Bike,250W,4.9,2022,POCO M4,Electric,250
+GW0160,Pooja Mishra,Female,23,Delhi,Karol Bagh,Zepto,Bicycle,500W,3.2,2020,Redmi Note 12,Electric,500
+GW0161,Anita Singh,Female,23,Bangalore,HSR Layout,Blinkit,CNG Bike,800W,3.2,2022,Samsung M14,Electric,800
+GW0162,Anita Pillai,Female,22,Mumbai,Powai,Blinkit,Electric Bike,150,3.4,2019,Redmi 9,ICE,150
+GW0163,Anita Rao,Female,42,Delhi,Lajpat Nagar,Swiggy,Petrol Bike,800W,0.7,2019,Samsung M14,Electric,800
+GW0164,Anita Rajput,Female,39,Bangalore,Koramangala,Dunzo,Petrol Bike,800W,4.8,2021,POCO M4,Electric,800
+GW0165,Pankaj Gupta,Male,37,Mumbai,Dadar,Zepto,CNG Bike,150,1.6,2019,Redmi 9,ICE,150
+GW0166,Ganesh Rao,Male,33,Delhi,Saket,Swiggy,CNG Bike,150,3.7,2020,Redmi Note 12,ICE,150
+GW0167,Shanti Verma,Female,24,Bangalore,Whitefield,Swiggy,Electric Bike,125,4.5,2022,Redmi 9,ICE,125
+GW0168,Anita Kumar,Female,38,Mumbai,Borivali,Blinkit,CNG Bike,125,3.7,2020,realme C35,ICE,125
+GW0169,Vikas Verma,Male,25,Delhi,Lajpat Nagar,Zepto,Bicycle,250W,3.0,2021,POCO M4,Electric,250
+GW0170,Nitin Kumar,Male,23,Bangalore,HSR Layout,Zepto,Electric Bike,500W,4.0,2023,Redmi 9,Electric,500
+GW0171,Praveen Kumar,Male,35,Mumbai,Thane,Dunzo,CNG Bike,125,4.5,2023,Redmi Note 12,ICE,125
+GW0172,Arun Nair,Male,37,Delhi,Noida Ext.,Swiggy,Bicycle,125,1.9,2020,realme C35,ICE,125
+GW0173,Dinesh Rao,Male,30,Bangalore,BTM Layout,Swiggy,CNG Bike,125,3.4,2023,realme C35,ICE,125
+GW0174,Amit Shah,Male,38,Mumbai,Andheri,Dunzo,Petrol Bike,125,1.3,2023,Redmi Note 12,ICE,125
+GW0175,Divya Yadav,Female,21,Delhi,Connaught Place,Swiggy,CNG Bike,125,4.0,2022,Redmi Note 12,ICE,125
+GW0176,Ganesh Iyer,Male,30,Bangalore,Marathahalli,Blinkit,Electric Bike,125,4.1,2022,realme C35,ICE,125
+GW0177,Sunita Yadav,Female,26,Mumbai,Thane,Zepto,Electric Bike,800W,1.4,2023,Samsung M14,Electric,800
+GW0178,Anita Chauhan,Female,33,Delhi,Lajpat Nagar,Blinkit,Bicycle,250W,1.6,2019,realme C35,Electric,250
+GW0179,Meena Gupta,Female,24,Bangalore,Koramangala,Blinkit,Electric Bike,500W,1.6,2020,realme C35,Electric,500
+GW0180,Meena Patel,Female,36,Mumbai,Borivali,Zepto,Electric Bike,150,2.7,2019,POCO M4,ICE,150
+GW0181,Meena Verma,Female,39,Delhi,Dwarka,Swiggy,Bicycle,150,2.7,2022,realme C35,ICE,150
+GW0182,Vikas Nair,Male,25,Bangalore,HSR Layout,Blinkit,Electric Bike,250W,0.7,2019,Redmi Note 12,Electric,250
+GW0183,Dinesh Iyer,Male,30,Mumbai,Andheri,Zepto,Electric Bike,150,4.2,2023,Redmi Note 12,ICE,150
+GW0184,Arun Singh,Male,33,Delhi,Dwarka,Blinkit,CNG Bike,125,1.4,2023,POCO M4,ICE,125
+GW0185,Suresh Yadav,Male,25,Bangalore,Marathahalli,Blinkit,Electric Bike,800W,1.2,2023,Samsung M14,Electric,800
+GW0186,Divya Jha,Female,26,Mumbai,Thane,Dunzo,CNG Bike,250W,2.8,2023,Redmi Note 12,Electric,250
+GW0187,Divya Pandey,Female,36,Delhi,Noida Ext.,Swiggy,CNG Bike,250W,3.5,2022,Redmi Note 12,Electric,250
+GW0188,Priya Shah,Female,36,Bangalore,HSR Layout,Dunzo,Petrol Bike,100,3.1,2020,Redmi Note 12,ICE,100
+GW0189,Kavita Tiwari,Female,22,Mumbai,Borivali,Swiggy,Petrol Bike,100,2.5,2022,Samsung M14,ICE,100
+GW0190,Meena Nair,Female,37,Delhi,Noida Ext.,Dunzo,Electric Bike,100,3.7,2023,Samsung M14,ICE,100
+GW0191,Shanti Rao,Female,33,Bangalore,HSR Layout,Zomato,Electric Bike,250W,3.0,2021,Redmi Note 12,Electric,250
+GW0192,Meena Tiwari,Female,29,Mumbai,Borivali,Blinkit,Petrol Bike,150,4.0,2020,POCO M4,ICE,150
+GW0193,Shanti Chauhan,Female,38,Delhi,Noida Ext.,Blinkit,CNG Bike,110,3.1,2023,POCO M4,ICE,110
+GW0194,Anita Gupta,Female,30,Bangalore,Koramangala,Blinkit,Bicycle,250W,4.7,2021,POCO M4,Electric,250
+GW0195,Manoj Iyer,Male,29,Mumbai,Borivali,Blinkit,Petrol Bike,110,3.3,2023,Samsung M14,ICE,110
+GW0196,Suresh Rao,Male,28,Delhi,Karol Bagh,Zomato,Bicycle,110,2.4,2022,Redmi 9,ICE,110
+GW0197,Rahul Iyer,Male,26,Bangalore,Indiranagar,Zepto,Electric Bike,125,3.9,2021,realme C35,ICE,125
+GW0198,Priya Kumar,Female,41,Mumbai,Borivali,Zomato,Bicycle,125,2.4,2020,Redmi 9,ICE,125
+GW0199,Shanti Patel,Female,30,Delhi,Connaught Place,Swiggy,CNG Bike,110,4.7,2021,realme C35,ICE,110
+GW0200,Pooja Rao,Female,36,Bangalore,Whitefield,Dunzo,Electric Bike,150,1.4,2019,realme C35,ICE,150
+GW0201,Arjun Mishra,Male,26,Mumbai,Andheri,Blinkit,CNG Bike,125,1.3,2022,POCO M4,ICE,125
+GW0202,Sunita Rajput,Female,42,Delhi,Connaught Place,Zomato,Petrol Bike,800W,2.0,2020,Redmi 9,Electric,800
+GW0203,Geeta Tiwari,Female,35,Bangalore,BTM Layout,Blinkit,CNG Bike,150,3.1,2023,Redmi 9,ICE,150
+GW0204,Anita Tiwari,Female,22,Mumbai,Powai,Swiggy,Electric Bike,150,1.2,2023,realme C35,ICE,150
+GW0205,Amit Chauhan,Male,40,Delhi,Lajpat Nagar,Zomato,Petrol Bike,800W,1.2,2023,realme C35,Electric,800
+GW0206,Pooja Reddy,Female,38,Bangalore,BTM Layout,Zomato,Petrol Bike,110,2.9,2023,realme C35,ICE,110
+GW0207,Pankaj Singh,Male,22,Mumbai,Worli,Dunzo,Petrol Bike,125,1.2,2023,POCO M4,ICE,125
+GW0208,Manoj Mehta,Male,36,Delhi,Connaught Place,Dunzo,Electric Bike,100,2.5,2023,POCO M4,ICE,100
+GW0209,Divya Yadav,Female,38,Bangalore,Indiranagar,Blinkit,Bicycle,500W,1.6,2019,Samsung M14,Electric,500
+GW0210,Suresh Nair,Male,32,Mumbai,Powai,Swiggy,Bicycle,110,4.9,2022,Redmi 9,ICE,110
+GW0211,Geeta Patel,Female,25,Delhi,Noida Ext.,Zepto,CNG Bike,500W,2.5,2022,POCO M4,Electric,500
+GW0212,Naveen Gupta,Male,41,Bangalore,BTM Layout,Blinkit,Bicycle,125,5.0,2022,Redmi Note 12,ICE,125
+GW0213,Ravi Sharma,Male,21,Mumbai,Dadar,Zepto,Electric Bike,500W,4.2,2020,POCO M4,Electric,500
+GW0214,Kavita Mishra,Female,27,Delhi,Karol Bagh,Swiggy,Bicycle,500W,3.3,2019,Samsung M14,Electric,500
+GW0215,Ramesh Singh,Male,40,Bangalore,Koramangala,Zepto,Bicycle,125,3.8,2022,POCO M4,ICE,125
+GW0216,Naveen Verma,Male,22,Mumbai,Bandra,Dunzo,CNG Bike,125,4.2,2023,realme C35,ICE,125
+GW0217,Meena Pandey,Female,25,Delhi,Karol Bagh,Dunzo,Petrol Bike,500W,1.9,2019,Redmi Note 12,Electric,500
+GW0218,Rohit Iyer,Male,36,Bangalore,Koramangala,Blinkit,Electric Bike,250W,3.6,2022,Samsung M14,Electric,250
+GW0219,Geeta Patel,Female,38,Mumbai,Thane,Zomato,Petrol Bike,150,4.4,2020,POCO M4,ICE,150
+GW0220,Naveen Nair,Male,34,Delhi,Saket,Dunzo,Petrol Bike,500W,1.6,2020,realme C35,Electric,500
+GW0221,Arjun Chauhan,Male,23,Bangalore,Electronic City,Zomato,Bicycle,150,2.2,2023,Redmi Note 12,ICE,150
+GW0222,Ramesh Verma,Male,39,Mumbai,Powai,Dunzo,Petrol Bike,800W,1.4,2021,realme C35,Electric,800
+GW0223,Manoj Verma,Male,24,Delhi,Karol Bagh,Zepto,Petrol Bike,125,2.3,2020,Redmi Note 12,ICE,125
+GW0224,Rekha Rajput,Female,35,Bangalore,Electronic City,Blinkit,CNG Bike,150,2.1,2022,POCO M4,ICE,150
+GW0225,Ganesh Jha,Male,27,Mumbai,Dadar,Blinkit,Electric Bike,100,3.0,2020,Samsung M14,ICE,100
+GW0226,Sanjay Iyer,Male,39,Delhi,Saket,Zepto,CNG Bike,125,1.4,2020,POCO M4,ICE,125
+GW0227,Ganesh Iyer,Male,41,Bangalore,Marathahalli,Blinkit,CNG Bike,800W,4.8,2022,POCO M4,Electric,800
+GW0228,Dinesh Patel,Male,25,Mumbai,Powai,Dunzo,Electric Bike,125,4.6,2023,Redmi 9,ICE,125
+GW0229,Ramesh Yadav,Male,21,Delhi,Rohini,Zomato,Petrol Bike,110,3.7,2019,Samsung M14,ICE,110
+GW0230,Anita Yadav,Female,40,Bangalore,Marathahalli,Dunzo,Electric Bike,800W,0.6,2023,Redmi Note 12,Electric,800
+GW0231,Priya Sharma,Female,37,Mumbai,Powai,Blinkit,CNG Bike,100,2.8,2022,Samsung M14,ICE,100
+GW0232,Vikas Rao,Male,25,Delhi,Lajpat Nagar,Zomato,CNG Bike,250W,1.7,2022,Redmi 9,Electric,250
+GW0233,Geeta Pillai,Female,39,Bangalore,Whitefield,Zomato,CNG Bike,110,3.4,2019,Redmi 9,ICE,110
+GW0234,Geeta Rajput,Female,38,Mumbai,Thane,Swiggy,Bicycle,125,0.9,2022,realme C35,ICE,125
+GW0235,Kishore Yadav,Male,28,Delhi,Lajpat Nagar,Dunzo,Electric Bike,150,0.7,2019,realme C35,ICE,150
+GW0236,Deepak Jha,Male,21,Bangalore,Whitefield,Dunzo,Petrol Bike,500W,4.7,2021,Samsung M14,Electric,500
+GW0237,Pankaj Rajput,Male,42,Mumbai,Borivali,Blinkit,Electric Bike,125,4.1,2019,Redmi Note 12,ICE,125
+GW0238,Priya Singh,Female,34,Delhi,Lajpat Nagar,Swiggy,CNG Bike,500W,4.9,2021,Redmi 9,Electric,500
+GW0239,Shanti Reddy,Female,28,Bangalore,HSR Layout,Dunzo,Electric Bike,500W,1.3,2023,POCO M4,Electric,500
+GW0240,Nitin Pandey,Male,28,Mumbai,Powai,Swiggy,Bicycle,150,1.2,2020,POCO M4,ICE,150
+GW0241,Anita Singh,Female,23,Delhi,Connaught Place,Blinkit,Electric Bike,250W,3.9,2019,Samsung M14,Electric,250
+GW0242,Deepak Nair,Male,35,Bangalore,Electronic City,Dunzo,Electric Bike,110,0.6,2021,Redmi Note 12,ICE,110
+GW0243,Nitin Shah,Male,31,Mumbai,Worli,Zepto,Bicycle,150,2.4,2019,Redmi Note 12,ICE,150
+GW0244,Pankaj Rao,Male,26,Delhi,Karol Bagh,Zepto,Petrol Bike,125,1.7,2021,POCO M4,ICE,125
+GW0245,Ramesh Patel,Male,34,Bangalore,HSR Layout,Zepto,CNG Bike,800W,4.0,2021,realme C35,Electric,800
+GW0246,Ganesh Shah,Male,40,Mumbai,Bandra,Zepto,Bicycle,125,1.9,2022,realme C35,ICE,125
+GW0247,Anita Pillai,Female,31,Delhi,Rohini,Dunzo,Petrol Bike,150,1.9,2020,POCO M4,ICE,150
+GW0248,Kavita Rajput,Female,31,Bangalore,HSR Layout,Zepto,Petrol Bike,250W,2.2,2022,realme C35,Electric,250
+GW0249,Pankaj Verma,Male,39,Mumbai,Borivali,Zomato,Bicycle,800W,4.7,2020,POCO M4,Electric,800
+GW0250,Sunita Nair,Female,42,Delhi,Rohini,Zomato,CNG Bike,125,1.6,2020,POCO M4,ICE,125
+GW0251,Sunita Pillai,Female,40,Bangalore,Indiranagar,Dunzo,Electric Bike,500W,2.9,2021,Redmi Note 12,Electric,500
+GW0252,Vikas Tiwari,Male,42,Mumbai,Powai,Blinkit,Petrol Bike,100,3.0,2022,realme C35,ICE,100
+GW0253,Sunita Sharma,Female,24,Delhi,Dwarka,Zomato,Petrol Bike,800W,2.2,2022,Redmi Note 12,Electric,800
+GW0254,Dinesh Sharma,Male,36,Bangalore,Koramangala,Blinkit,Electric Bike,110,1.0,2020,realme C35,ICE,110
+GW0255,Anita Pillai,Female,27,Mumbai,Borivali,Zepto,CNG Bike,800W,0.9,2022,realme C35,Electric,800
+GW0256,Amit Yadav,Male,24,Delhi,Connaught Place,Blinkit,Bicycle,125,4.7,2020,Redmi Note 12,ICE,125
+GW0257,Naveen Patel,Male,31,Bangalore,Electronic City,Zepto,Electric Bike,125,4.1,2020,Samsung M14,ICE,125
+GW0258,Geeta Sharma,Female,40,Mumbai,Bandra,Zepto,Electric Bike,500W,0.5,2020,Samsung M14,Electric,500
+GW0259,Sunita Mehta,Female,24,Delhi,Noida Ext.,Dunzo,Petrol Bike,250W,2.0,2022,Redmi 9,Electric,250
+GW0260,Shanti Rao,Female,41,Bangalore,HSR Layout,Dunzo,Electric Bike,500W,3.1,2021,realme C35,Electric,500
+GW0261,Divya Patel,Female,42,Mumbai,Powai,Blinkit,Bicycle,125,1.9,2020,realme C35,ICE,125
+GW0262,Deepak Chauhan,Male,25,Delhi,Saket,Zepto,Electric Bike,125,3.1,2022,Samsung M14,ICE,125
+GW0263,Pooja Patel,Female,38,Bangalore,Whitefield,Zepto,CNG Bike,125,1.3,2022,Redmi Note 12,ICE,125
+GW0264,Dinesh Sharma,Male,36,Mumbai,Bandra,Zomato,Electric Bike,800W,2.3,2022,POCO M4,Electric,800
+GW0265,Shanti Patel,Female,23,Delhi,Saket,Swiggy,Petrol Bike,150,0.6,2020,Redmi Note 12,ICE,150
+GW0266,Kavita Pillai,Female,39,Bangalore,Marathahalli,Zepto,Bicycle,110,1.7,2023,realme C35,ICE,110
+GW0267,Arjun Iyer,Male,27,Mumbai,Thane,Swiggy,Petrol Bike,150,4.4,2019,POCO M4,ICE,150
+GW0268,Anita Kumar,Female,35,Delhi,Noida Ext.,Swiggy,Petrol Bike,125,4.1,2023,realme C35,ICE,125
+GW0269,Kavita Shah,Female,25,Bangalore,BTM Layout,Zomato,Petrol Bike,100,3.1,2023,realme C35,ICE,100
+GW0270,Praveen Pandey,Male,30,Mumbai,Borivali,Blinkit,Bicycle,125,4.8,2022,Redmi 9,ICE,125
+GW0271,Kavita Gupta,Female,28,Delhi,Lajpat Nagar,Blinkit,Petrol Bike,500W,2.7,2023,realme C35,Electric,500
+GW0272,Geeta Pillai,Female,23,Bangalore,Marathahalli,Swiggy,Electric Bike,150,3.6,2021,POCO M4,ICE,150
+GW0273,Anita Mehta,Female,21,Mumbai,Worli,Swiggy,Electric Bike,250W,4.3,2023,POCO M4,Electric,250
+GW0274,Rohit Verma,Male,36,Delhi,Dwarka,Blinkit,CNG Bike,250W,3.0,2020,Redmi Note 12,Electric,250
+GW0275,Anita Yadav,Female,22,Bangalore,Koramangala,Zepto,Bicycle,110,4.7,2020,POCO M4,ICE,110
+GW0276,Priya Nair,Female,27,Mumbai,Powai,Zomato,CNG Bike,125,4.4,2021,Redmi 9,ICE,125
+GW0277,Rekha Kumar,Female,32,Delhi,Karol Bagh,Zomato,Bicycle,500W,3.3,2020,POCO M4,Electric,500
+GW0278,Vikas Sharma,Male,27,Bangalore,Indiranagar,Swiggy,Petrol Bike,125,2.8,2022,Redmi 9,ICE,125
+GW0279,Praveen Singh,Male,34,Mumbai,Powai,Zomato,Electric Bike,110,1.5,2019,Redmi 9,ICE,110
+GW0280,Praveen Chauhan,Male,30,Delhi,Lajpat Nagar,Zepto,Petrol Bike,125,0.8,2023,Redmi 9,ICE,125
+GW0281,Arjun Chauhan,Male,27,Bangalore,Marathahalli,Zomato,Electric Bike,800W,4.4,2019,Redmi 9,Electric,800
+GW0282,Vikas Mehta,Male,33,Mumbai,Dadar,Zepto,CNG Bike,125,1.6,2019,Samsung M14,ICE,125
+GW0283,Priya Pandey,Female,27,Delhi,Saket,Dunzo,Petrol Bike,500W,1.8,2019,Samsung M14,Electric,500
+GW0284,Geeta Singh,Female,28,Bangalore,Indiranagar,Dunzo,Bicycle,100,4.9,2021,Samsung M14,ICE,100
+GW0285,Divya Nair,Female,32,Mumbai,Borivali,Zomato,Electric Bike,110,0.6,2019,Redmi 9,ICE,110
+GW0286,Meena Yadav,Female,22,Delhi,Noida Ext.,Zepto,CNG Bike,500W,2.4,2022,Redmi 9,Electric,500
+GW0287,Sanjay Kumar,Male,30,Bangalore,Koramangala,Dunzo,Petrol Bike,125,2.9,2022,Redmi Note 12,ICE,125
+GW0288,Amit Nair,Male,28,Mumbai,Andheri,Zomato,Bicycle,500W,1.0,2023,Redmi Note 12,Electric,500
+GW0289,Amit Patel,Male,24,Delhi,Connaught Place,Zomato,Bicycle,125,2.7,2021,Redmi Note 12,ICE,125
+GW0290,Kavita Chauhan,Female,25,Bangalore,Marathahalli,Blinkit,Bicycle,100,2.0,2022,realme C35,ICE,100
+GW0291,Sanjay Mehta,Male,41,Mumbai,Andheri,Zepto,Electric Bike,250W,0.7,2023,Samsung M14,Electric,250
+GW0292,Kavita Mishra,Female,24,Delhi,Saket,Swiggy,Petrol Bike,100,0.7,2019,Samsung M14,ICE,100
+GW0293,Ganesh Chauhan,Male,33,Bangalore,Whitefield,Zomato,Bicycle,500W,1.5,2020,POCO M4,Electric,500
+GW0294,Rekha Kumar,Female,39,Mumbai,Dadar,Swiggy,Bicycle,125,1.5,2023,Redmi 9,ICE,125
+GW0295,Sunita Pillai,Female,30,Delhi,Noida Ext.,Blinkit,CNG Bike,110,3.0,2019,realme C35,ICE,110
+GW0296,Amit Mehta,Male,30,Bangalore,Marathahalli,Dunzo,Petrol Bike,800W,2.2,2022,Samsung M14,Electric,800
+GW0297,Arun Sharma,Male,34,Mumbai,Andheri,Zomato,CNG Bike,100,4.8,2019,POCO M4,ICE,100
+GW0298,Sunita Verma,Female,37,Delhi,Lajpat Nagar,Zepto,Electric Bike,100,4.9,2020,realme C35,ICE,100
+GW0299,Suresh Tiwari,Male,37,Bangalore,Indiranagar,Blinkit,Electric Bike,110,3.1,2023,Samsung M14,ICE,110
+GW0300,Sunita Mehta,Female,39,Mumbai,Andheri,Zepto,Petrol Bike,125,1.8,2021,POCO M4,ICE,125
