@@ -1,46 +1,66 @@
 # 🛵 Gig Worker Earnings Reality Check
-### What Swiggy / Zomato / Blinkit / Zepto / Dunzo Partners Actually Take Home (2021–2025)
+### Modelling What Delivery Partners Actually Take Home (2021–2025)
 
 <br>
 
-> **Gig workers' real purchasing power fell −19.8% between 2021 and 2025.**
-> Nominal earnings barely moved (−2.7%), but India's urban CPI rose +21.4% cumulatively.
-> Meanwhile, platform commissions crept from 19.6% → 23.2%. The average delivery partner
-> now takes home just **58.2% of gross earnings** — down from 60.1% in 2021.
+> **Note:** this project uses a **synthetic dataset**, generated to match publicly
+> reported averages (NITI Aayog gig worker surveys, industry commission reports)
+> and official CPI figures. It models a plausible earnings pattern for delivery
+> partners across Swiggy, Zomato, Blinkit, Zepto and Dunzo — it is not scraped or
+> real worker data. Read this as a methodology and analysis project, not a
+> factual claim about any specific platform or worker.
+
+<br>
+
+> **Modelled finding:** in this dataset, real (inflation-adjusted) net earnings fall
+> **19.8%** between 2021 and 2025, even though nominal earnings barely move (−2.7%).
+> Over the same period, modelled platform commission rises from 19.6% to 23.2%,
+> and take-home share of gross earnings falls from 60.1% to 56.6%.
 
 <br>
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![pandas](https://img.shields.io/badge/pandas-2.0-150458?style=flat-square&logo=pandas)](https://pandas.pydata.org)
-[![MySQL](https://img.shields.io/badge/SQL-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Dashboard](https://img.shields.io/badge/Dashboard-Chart.js-FF6384?style=flat-square)](https://chartjs.org)
+[![SQL](https://img.shields.io/badge/SQL-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Dashboard](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
-## 📌 Live Dashboard
+## 📌 Project Overview
 
-**[→ Open Interactive Dashboard](https://[your-username].github.io/gig-worker-earnings/)**
+An end-to-end analysis of a modelled gig delivery earnings dataset covering
+Mumbai, Delhi and Bangalore, 2021–2025, across five platforms and four
+vehicle types.
 
-Four views — Earnings Waterfall · City & Platform · Real Wage Erosion · Break-Even Calculator.
-No login, no install, works offline.
+**Questions this project answers:**
+- After platform commission, fuel, maintenance and monsoon downtime, how much
+  of gross earnings does a worker actually keep?
+- How does commission creep compare with inflation in eroding real income?
+- How many working days does a worker need each month to cover fixed costs,
+  and how does that vary by city and vehicle type?
+- Which combination of city, platform and vehicle produces the best modelled
+  outcome?
 
 ---
 
-## 🔑 Key Findings
+## 🔑 Key Findings (modelled)
 
-| Finding | Number |
+| Finding | Value |
 |---|---|
-| **Real net wage erosion 2021→2025** | **−19.8%** |
+| Real net wage change, 2021→2025 | **−19.8%** |
 | Nominal net earnings change | −2.7% |
-| Cumulative CPI inflation | +21.4% |
-| Commission creep (all platforms) | 19.6% → 23.2% (+3.6pp) |
-| Average take-home of gross | 58.2% |
-| Best break-even scenario | 3.4 days (Mumbai · Electric Bike · Zepto) |
-| Worst break-even scenario | 8.5 days (Delhi · Petrol Bike · Zomato) |
-| Monsoon income loss (Jun–Sep) | ₹1,935/month vs ₹350 rest of year (5.5×) |
-| Top 10 earners | All Mumbai · Electric Bike · Zepto or Blinkit |
-| Electric bike net advantage | +₹2,639/month vs petrol bike |
+| Cumulative CPI (2021 base) | +21.4% |
+| Commission creep, all platforms | 19.6% → 23.2% |
+| Take-home share of gross, 2021 vs 2025 | 60.1% → 56.6% |
+| Fastest break-even, 2025 | 2.9 days (Mumbai, electric bike) |
+| Slowest break-even, 2025 | 6.0 days (Delhi, petrol bike) |
+| Monsoon (Jun–Sep) rain-loss vs rest of year | 5.5× higher |
+| Electric bike vs petrol bike, net/month | +₹2,639 |
+
+*Break-even and real-wage figures were recomputed after fixing two errors in
+the original scripts (a double-counted break-even cost, and a CPI method that
+didn't match the −19.8% headline) — see Methodology Notes.*
 
 ---
 
@@ -49,44 +69,48 @@ No login, no install, works offline.
 | Sheet | Rows | Description |
 |---|---|---|
 | `Worker_Profiles` | 300 | Demographics · city · zone · platform · vehicle type |
-| `Monthly_Earnings` | **18,000** | Gross · all deductions · net · hourly rate (2021–2025) |
-| `City_Year_Summary` | 15 | Aggregated city × year metrics + real wage index |
+| `Monthly_Earnings` | 18,000 | Gross · all deductions · net · hourly rate (2021–2025) |
+| `City_Year_Summary` | 15 | Aggregated city × year metrics |
 | `Platform_Commission_Rates` | 25 | Commission % per platform per year |
 | `Petrol_Prices_Monthly` | 56 | City-level petrol price per litre per month |
+| `Date_Table` | 60 | Date dimension for Power BI |
 
-**Coverage:** 300 workers × 5 years × 12 months = 18,000 rows  
-**Cities:** Mumbai · Delhi · Bangalore  
-**Platforms:** Swiggy · Zomato · Blinkit · Zepto · Dunzo  
+**Coverage:** 300 workers × 5 years × 12 months = 18,000 rows
+**Cities:** Mumbai · Delhi · Bangalore
+**Platforms:** Swiggy · Zomato · Blinkit · Zepto · Dunzo
 **Vehicle types:** Electric Bike · Petrol Bike · CNG Bike · Bicycle
 
 ---
 
 ## 📂 Repository Structure
 
+> ⚠️ **Fill this in with your real folder/file names before pushing** — this is
+> a best guess based on the files you've shared with me. If a file below lives
+> somewhere else in your repo, move it or edit this tree to match reality.
+
 ```
-gig_worker_earnings/
+Gig-Worker-Earnings/
 │
-├── data/
-│   ├── raw/                               ← Original Excel (5 sheets)
-│   ├── processed/                         ← Cleaned CSVs per sheet
-│   └── exports/                           ← Tableau-ready & SQL-ready files
+├── Python/
+│   ├── data_validation.py          ← Step 1: validation checks
+│   ├── eda.py                      ← Step 2: EDA charts
+│   ├── 03_real_wage_analysis.py    ← Step 3: CPI-adjusted wage erosion (fixed)
+│   └── 04_breakeven_model.py       ← Step 4: break-even model (fixed)
 │
-├── notebooks/
-│   ├── 01_data_validation.py              ← Step 1: 28-check validation suite
-│   ├── 02_eda.py                          ← Step 2: 7 EDA charts
-│   ├── 03_real_wage_analysis.py           ← Step 3: CPI-adjusted wage erosion
-│   └── 04_breakeven_model.py              ← Step 4: Parameterised break-even model
+├── SQL/
+│   └── Queries.sql                 ← 7 business queries (MySQL)
 │
-├── sql/
-│   ├── 01_highest_net_by_platform_city.sql   ← Window RANK() per city
-│   ├── 02_monthly_earnings_trend.sql         ← 60-month trend + LAG() MoM/YoY
-│   ├── 03_rain_month_impact.sql              ← Rain bucketing + season analysis
-│   └── 04_top10_earners_profile.sql          ← Full worker profile deep-dive
+├── Power BI/
+│   ├── Gig_Worker_Earnings.pbix    ← Dashboard file
+│   └── PowerBI_Build_Guide.pdf     ← Build guide, 20 DAX measures
 │
-├── docs/
-│   └── index.html                         ← Interactive dashboard (GitHub Pages)
+├── Validation/
+│   └── (validation outputs, if any)
 │
-├── assets/images/                         ← All 20 charts (PNG, 150 DPI)
+├── EDA/
+│   └── (EDA outputs/charts, if any)
+│
+├── gig_worker_data.xlsx            ← Source data, all sheets
 ├── requirements.txt
 └── README.md
 ```
@@ -95,70 +119,51 @@ gig_worker_earnings/
 
 ## 🔍 Analysis Steps
 
-### Step 1 — Data Validation (`01_data_validation.py`)
+### Step 1 — Data Validation (`Python/data_validation.py`)
+28 automated checks: shape validation, null checks, referential integrity,
+domain values, net-earnings formula verification, commission cross-sheet
+consistency, petrol price coverage.
 
-28 automated checks across all 5 sheets: shape validation, null checks, referential integrity, domain values, net earnings formula verification, commission cross-sheet consistency, petrol price coverage, and real wage index sanity. **All 28 passed.**
+### Step 2 — Exploratory Data Analysis (`Python/eda.py`)
+Charts covering the gross-to-net breakdown, city and platform comparisons,
+rain seasonality, and vehicle-type efficiency.
 
-Notable: `vehicle_cc_or_watt` is a mixed-type column (`110` CC vs `500W` watts) — engineered into two clean columns (`engine_type`, `engine_value`) for downstream analysis.
-
-### Step 2 — Exploratory Data Analysis (`02_eda.py`)
-
-Seven charts examining the full earnings picture:
-
-- **2A** — Gross → Net Waterfall: commission (₹5,756) is the largest single deduction, bigger than fuel + maintenance + rain loss combined
-- **2B** — City comparison: Mumbai earns ₹2,755/month more than Delhi in net terms
-- **2C/2D** — Platform commission impact + rate creep 2021–2025
-- **2E** — Rain seasonality: Jun–Sep monsoon loss is 5.5× the rest of year
-- **2F** — Vehicle efficiency: Electric bikes save ₹2,306/month on fuel vs petrol, delivering +₹2,639 more net
-- **2G** — Year-on-year: gross grew +3.3% while net fell −2.7%; the gap is commission
-- **2H** — Platform × City heatmap with best-in-city rankings
-
-### Step 3 — Real Wage Analysis (`03_real_wage_analysis.py`)
-
-CPI deflation using RBI/MoSPI India Urban CPI (2021 = 100). Monthly interpolation applied for granular accuracy.
-
+### Step 3 — Real Wage Analysis (`Python/03_real_wage_analysis.py`)
+Net earnings deflated using annual CPI (2021 = 100).
 ```
-Nominal net 2021:   ₹15,912
-Nominal net 2025:   ₹15,487   (−2.7%)
-Cumulative CPI:     +21.4%
-Real net 2025:      ₹12,757   (−19.8% in 2021 purchasing power)
+Nominal net 2021 → 2025:   ₹15,912 → ₹15,487   (−2.7%)
+Cumulative CPI:            +21.4%
+Real wage index 2025:      80.2   (−19.8% in 2021 purchasing power)
 ```
+All three cities and all five platforms land at a real wage index of
+79–81 by 2025 — the erosion is structural (commission + inflation), not
+specific to one city or platform.
 
-**Finding:** All three cities and all five platforms converge to real wage index ~80 by 2025 — the erosion is structural (commission + inflation), not city- or platform-specific.
-
-### Step 4 — Break-Even Model (`04_breakeven_model.py`)
-
-Parameterised function computing minimum working days before fixed costs are covered:
-
-```python
-breakeven_days = fixed_monthly_costs / avg_net_per_working_day
-# where: fixed = fuel + phone + maintenance
+### Step 4 — Break-Even Model (`Python/04_breakeven_model.py`)
 ```
-
-| Scenario | Break-Even | Monthly Profit |
+breakeven_days = fixed_costs / contribution_per_day
+contribution_per_day = (gross − commission − rain_loss) / working_days
+```
+| Scenario | Break-Even | Monthly Net |
 |---|---|---|
-| Mumbai · Electric Bike · 2025 | **3.4 days** | ₹15,786 |
-| Mumbai · Petrol Bike · 2025 | 7.5 days | ₹10,327 |
-| Delhi · Petrol Bike · 2025 | 8.3 days | ₹8,481 |
-| Delhi · Petrol Bike · Monsoon | 9.7 days | ₹7,450 |
-| Mumbai · Petrol Bike · 2021 | 6.6 days | ₹11,628 |
+| Mumbai · Electric Bike · 2025 | **2.9 days** | ₹18,697 |
+| Mumbai · Petrol Bike · 2025 | 5.6 days | ₹15,698 |
+| Delhi · Petrol Bike · 2025 | 6.0 days | ₹13,524 |
+| Mumbai · Petrol Bike · 2021 | 5.1 days | — |
 
-The same Mumbai petrol-bike worker went from 6.6 → 7.5 days to break even between 2021 and 2025 — a direct, quantifiable consequence of commission creep. Supports `city`, `vehicle_type`, `year`, `platform`, `monsoon`, `custom_commission_pct`, `custom_fuel_cost`, and `custom_daily_hours` parameters.
+The same Mumbai petrol-bike worker went from 5.1 to 5.6 break-even days
+between 2021 and 2025 — a direct, quantifiable consequence of commission
+creep.
 
-### Step 5 — SQL Analysis (`sql/`)
+### Step 5 — SQL Analysis (`SQL/Queries.sql`)
+Seven queries (MySQL), covering platform ranking by city, monthly trend with
+`LAG()`, rain-impact bucketing, top-10 earners, worker retention, cost
+breakdown, and an efficiency split.
 
-Four production-grade queries tested on SQLite:
-
-| Query | Key SQL Technique | Finding |
-|---|---|---|
-| `01` — Best platform by city | `RANK() OVER (PARTITION BY city)` | Zepto #1 in Mumbai & Delhi; Blinkit #1 in Bangalore; Zomato last everywhere |
-| `02` — Monthly trend | `LAG()` for MoM & YoY · rolling avg | Largest single drop: −12.3% (May→Jun monsoon onset) |
-| `03` — Rain impact | `CASE WHEN` bucketing · season flags | Extreme rain (7+ days) cuts net by up to 17% |
-| `04` — Top 10 earners | Multi-table `JOIN` · conditional aggregation | All 10: Mumbai + Electric Bike + Zepto or Blinkit |
-
-### Step 6 — Interactive Dashboard (`docs/index.html`)
-
-Single-file HTML dashboard using Chart.js. No server, no dependencies beyond a browser. Four interactive views with live tooltips, animated entries, and a commission-rate slider in the break-even calculator.
+### Step 6 — Power BI Dashboard (`Power BI/Gig_Worker_Earnings.pbix`)
+Four pages: Earnings Overview, City & Platform, Real Wage Erosion, Break-Even
+Calculator. Built on 6 CSVs with 20 DAX measures — see
+`PowerBI_Build_Guide.pdf` for the full build steps.
 
 ---
 
@@ -167,10 +172,10 @@ Single-file HTML dashboard using Chart.js. No server, no dependencies beyond a b
 | Layer | Tools |
 |---|---|
 | Data wrangling | Python · pandas · NumPy |
-| Visualisation | matplotlib · seaborn |
-| Database | SQLite · pandas SQL reader |
-| Dashboard | Chart.js 4.4 · vanilla JS · CSS Grid |
-| Version control | Git · GitHub Pages |
+| Visualisation | matplotlib |
+| Database | MySQL |
+| Dashboard | Power BI |
+| Version control | Git · GitHub |
 | Source data | Excel (openpyxl) |
 
 ---
@@ -178,36 +183,17 @@ Single-file HTML dashboard using Chart.js. No server, no dependencies beyond a b
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/[your-username]/gig-worker-earnings.git
-cd gig-worker-earnings
+git clone https://github.com/Ajaypatel06/Gig-Worker-Earnings.git
+cd Gig-Worker-Earnings
 pip install -r requirements.txt
 
-# Validate all 5 sheets (28 checks)
-python notebooks/01_data_validation.py
-
-# Generate all EDA charts
-python notebooks/02_eda.py
-
-# Real wage analysis + CPI deflation
-python notebooks/03_real_wage_analysis.py
-
-# Break-even model
-python notebooks/04_breakeven_model.py
-
-# Open dashboard (no server needed)
-open docs/index.html
+python Python/data_validation.py
+python Python/eda.py
+python Python/03_real_wage_analysis.py
+python Python/04_breakeven_model.py
 ```
 
----
-
-## 📈 Selected Charts
-
-| | |
-|---|---|
-| ![Waterfall](assets/images/2A_waterfall.png) | ![Real Wage](assets/images/3A_nominal_vs_real.png) |
-| **Earnings Waterfall** — Only 58.2% reaches the worker | **Real Wage Index** — −19.8% in purchasing power |
-| ![Break-Even](assets/images/4A_breakeven_heatmap.png) | ![Platform Heatmap](assets/images/2H_platform_city_heatmap.png) |
-| **Break-Even Grid** — Electric bikes break even in half the time | **Platform × City** — Zepto and Blinkit dominate |
+Open `Gig_Worker_Earnings.pbix` in Power BI Desktop to view the dashboard.
 
 ---
 
@@ -218,26 +204,31 @@ open docs/index.html
 Net = Gross − Platform Commission − Fuel − Phone Data − Maintenance − Rain Income Loss
 ```
 
-**Real Wage Deflation:** Monthly CPI linearly interpolated between annual RBI/MoSPI anchor points (2021 = 100). Formula: `real_net = nominal_net / CPI_monthly × 100`.
+**Real Wage Deflation:** annual CPI (2021 = 100). `real_net = nominal_net / CPI_year × 100`.
+CPI values are placeholders — replace with the exact published series and
+source before treating this as final.
 
-**Break-Even Model:** Fixed costs = fuel + phone + maintenance only. Platform commission is embedded in net earnings as a variable cost. Rain loss excluded from base scenario; monsoon toggle available.
+**Break-Even Model:** contribution per day = (gross − commission − rain loss) /
+working days. Fixed costs = fuel + phone + maintenance. Break-even days =
+fixed costs / contribution per day. Monthly net matches `net_earnings_inr`
+exactly — it is not reduced a second time.
 
-**2025 petrol data:** Covers Jan–Aug 2025 only (8 months). Fuel analysis for 2025 uses available months.
+**2025 petrol data:** covers Jan–Aug only (8 months).
 
-**Dataset:** Synthetic, calibrated to real published averages from NITI Aayog gig worker surveys, IFMR Labour Economics research, and platform T&C disclosures. CPI values are official RBI/MoSPI figures.
+**Dataset:** synthetic, calibrated to publicly reported averages. Not real
+worker or platform data.
 
 ---
 
 ## 🙋 About
 
-**[Ajay Patel]** — Data Analyst, Mumbai
-2.5 years experience · Python (pandas, NumPy) · SQL · Tableau · Excel
+**Ajay Patel** — Data Analyst, Mumbai
+~3.5 years of experience · Python (pandas, NumPy) · SQL · Power BI · Excel
 
-[LinkedIn](https://linkedin.com/in/ajay-patel-006may) · [Portfolio](https://your-portfolio.com) · [Email](ajaypatel006may@gmail.com)
+[LinkedIn](https://linkedin.com/in/ajay-patel-006may) · [GitHub](https://github.com/Ajaypatel06) · [Email](mailto:ajaypatel006may@gmail.com)
 
 ---
 
 ## 📄 License
 
 MIT — free for educational and portfolio use.
-CPI data: © RBI / MoSPI (public domain). Platform commission rates: approximate, sourced from public T&Cs and industry reports.
